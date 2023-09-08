@@ -1,0 +1,54 @@
+<!-- 
+Adicione as tags <meta> necessarias;
+Substitua as tags <div> por elementos HTML semânticos adequados, como <header>, <nav>, <main>, <article>, <section>, <aside> e <footer>;
+Mantenha o conteúdo dentro de cada <div> inalterado.
+Adicione comentários explicando por que você escolheu cada tag semântica em particular.  
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercício de Correção de Divs</title>
+  <!-- Adicionado meta tags aqui, se necessário -->
+</head>
+
+<body>
+
+  <!-- A tag <header> é usada para representar o cabeçalho do documento -->
+  <header id="page-header">
+    <div id="logo">Meu Site</div>
+    <nav id="navigation">
+      <!-- A tag <nav> é usada para representar a navegação do site -->
+      <div class="nav-item">Home</div>
+      <div class="nav-item">Sobre</div>
+      <div class="nav-item">Contato</div>
+    </nav>
+  </header>
+
+  <!-- A tag <main> é usada para representar o conteúdo principal do documento -->
+  <main id="main-content">
+    <section id="left-column">
+      <!-- A tag <section> é usada para agrupar conteúdo relacionado semanticamente -->
+      <article class="article">
+        <!-- A tag <article> é usada para representar um conteúdo autônomo e independente -->
+        <h1 class="title">Artigo 1</h1>
+        <!-- A tag <h1> é usada para definir o título do artigo -->
+        <div class="content">Este é o conteúdo do artigo 1.</div>
+      </article>
+    </section>
+    <aside id="right-column">
+      <!-- A tag <aside> é usada para representar conteúdo relacionado ao conteúdo principal -->
+      <div class="sidebar-item">Item 1</div>
+      <div class="sidebar-item">Item 2</div>
+    </aside>
+  </main>
+
+  <!-- A tag <footer> é usada para representar o rodapé do documento -->
+  <footer id="page-footer">
+    <div id="footer-text">Copyright 2023</div>
+  </footer>
+
+</body>
+
+</html>
